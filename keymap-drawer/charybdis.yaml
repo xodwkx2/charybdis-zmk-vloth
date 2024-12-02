@@ -32,7 +32,7 @@ layers:
   - {t: /, h: Symbol}
   - {t: '$$mdi:keyboard-esc$$', h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: Numeral/Function, h: sticky}
+  - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: Navigation}
   Numeral/Function:
