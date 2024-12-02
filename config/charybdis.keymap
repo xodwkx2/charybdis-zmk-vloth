@@ -63,30 +63,30 @@
         Base {
             label = "Base";
             bindings = <
-              &kp       Q  &kp       W  &kp        E  &kp        R  &kp T        &kp Y  &kp        U  &kp        I  &kp       O  &kp               P  
-              &hml LSHFT A  &hml LGUI S  &hml LALT D  &hml LCTRL F  &kp G        &kp H  &hml RCTRL J  &hml RALT K  &hml RGUI L  &hml RSHFT SEMICOLON  
-              &lt   POI Z  &kp       X  &kp        C  &kp        V  &kp B        &kp N  &kp        M  &kp    COMMA  &kp     DOT  &lt POI SLASH
-                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &kp ENTER &sl SYM
+              &kp       Q  &kp       W  &kp        E  &kp        R  &kp T        &kp Y  &kp        U  &kp        I  &kp       O  &kp                P  
+              &hml LSHFT A &hml LGUI S  &hml LALT D   &hml LCTRL F  &kp G        &kp H  &hml RCTRL J  &hml RALT K   &hml RGUI L  &hml RSHFT SEMICOLON  
+              &lt   SYM Z  &kp       X  &kp        C  &kp        V  &kp B        &kp N  &kp        M  &kp    COMMA  &kp     DOT  &lt SYM SLASH
+                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &kp ENTER &lt SYM BACKSPACE
             >;
         };
 
         NuFu {
             label = "Numeral/Function";
             bindings = <
-                &trans  &kp F7  &kp F8  &kp F9 &kp F12        &trans  &kp N7  &kp N8  &kp N9  &kp DELETE
-                &trans  &kp F4  &kp F5  &kp F6 &kp F11        &trans  &kp N4  &kp N5  &kp N6  &kp BACKSPACE
-                &trans  &kp F1  &kp F2  &kp F3 &kp F10        &trans  &kp N1  &kp N2  &kp N3  &trans
-                                &trans  &trans  &trans        &trans &kp N0 
+                &kp LC(LG(Q))  &kp    F7  &kp   UP       &kp    F9  &kp F12     &trans    &kp N7     &kp N8    &kp N9     &kp DELETE
+                &trans         &kp  LEFT  &kp DOWN       &kp RIGHT  &kp F11     &kp PLUS  &kp MINUS  &kp STAR  &kp SLASH  &kp BACKSPACE
+                &kp F19        &kp   F16  &kp  F17       &kp   F18  &none       &kp LBRC  &kp RBRC   &kp LBKT  &kp RBKT   &kp BSLH
+                                          &kp BACKSPACE  &kp ENTER  &trans      &trans    &trans 
             >;
         };
 
         Symbol {
             label = "Symbol";
             bindings = <
-              &kp TILDE &kp AMPS  &kp STAR   &trans    &kp PLUS        &trans &kp LBRC  &kp RBRC  &trans  &kp PIPE
-              &kp MINUS &kp DLLR  &kp PRCNT  &kp CARET &kp EQUAL       &trans &kp LPAR  &kp RPAR  &kp DQT &kp APOS
-              &kp UNDER &kp EXCL  &kp AT     &kp HASH  &kp GRAVE       &trans &kp LBKT  &kp RBKT  &trans  &kp BSLH
-                                  &trans     &trans    &trans          &trans &trans
+              &kp EXCL  &kp AT    &kp HASH   &kp DLLR  &kp PRCNT       &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
+              &kp N1    &kp N2    &kp N3     &kp N4    &kp N5          &kp N6     &kp N7    &kp N8     &kp N9    &kp N0
+              &none &none  &none     &none  &none       &trans         &none      &none     &none      &none
+                                  &trans     &trans    &trans          &trans     &trans
             >;
         };
 
