@@ -34,7 +34,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
   - {t: Numeral/Function, h: sticky}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: Symbol}
+  - {t: '$$mdi:backspace$$', h: Navigation}
   Numeral/Function:
   - Ctl+Gui+ Q
   - F7
@@ -108,11 +108,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Navigation:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:keyboard-tab$$
@@ -138,10 +138,10 @@ layers:
   - PAGE UP
   - END
   - INS
-  - {t: ▽, type: trans}
+  - BT CLR
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - OUT TOG
   - {t: ▽, type: trans}
   Media:
   - {t: ▽, type: trans}
