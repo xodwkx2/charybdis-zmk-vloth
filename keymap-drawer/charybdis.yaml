@@ -10,17 +10,17 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Z, h: Pointer}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Z, h: Symbol}
   - X
   - C
   - V
@@ -29,16 +29,16 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Pointer}
+  - {t: /, h: Symbol}
   - {t: '$$mdi:keyboard-esc$$', h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: NuFu, h: sticky}
+  - {t: Numeral/Function, h: sticky}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Symbol, h: sticky}
-  NuFu:
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:backspace$$', h: Symbol}
+  Numeral/Function:
+  - Ctl+Gui+ Q
   - F7
-  - F8
+  - $$mdi:arrow-up-bold$$
   - F9
   - F12
   - {t: ▽, type: trans}
@@ -47,66 +47,66 @@ layers:
   - '9'
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - F11
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F10
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - '0'
-  Symbol:
-  - '~'
-  - '&'
-  - '*'
-  - {t: ▽, type: trans}
   - +
-  - {t: ▽, type: trans}
+  - '-'
+  - '*'
+  - /
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - F19
+  - F16
+  - F17
+  - F18
+  - ''
   - '{'
   - '}'
+  - '['
+  - ']'
+  - \
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: held}
   - {t: ▽, type: trans}
-  - '|'
-  - '-'
-  - $
-  - '%'
-  - ^
-  - '='
   - {t: ▽, type: trans}
-  - (
-  - )
-  - '"'
-  - ''''
-  - _
+  Symbol:
   - '!'
   - '@'
   - '#'
-  - '`'
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,7 +200,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
+  - {t: ▽, type: trans}
   - Scroll
   - Sniper
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,7 +272,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
