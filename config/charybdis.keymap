@@ -34,7 +34,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <210>;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 33 34>;
             flavor = "balanced";
             quick-tap-ms = <175>;
@@ -48,7 +48,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <210>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             flavor = "balanced";
             quick-tap-ms = <175>;
@@ -66,7 +66,7 @@
               &kp       Q  &kp       W  &kp        E  &kp        R  &kp T        &kp Y  &kp        U  &kp        I  &kp       O  &kp                P  
               &hml LSHFT A &hml LGUI S  &hml LALT D   &hml LCTRL F  &kp G        &kp H  &hml RCTRL J  &hml RALT K   &hml RGUI L  &hml RSHFT SEMICOLON  
               &lt   SYM Z  &kp       X  &kp        C  &kp        V  &kp B        &kp N  &kp        M  &kp    COMMA  &kp     DOT  &lt SYM SLASH
-                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &kp ENTER &lt SYM BACKSPACE
+                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &kp ENTER &lt NAV BACKSPACE
             >;
         };
 
@@ -93,10 +93,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-                         &trans  &trans  &trans  &trans  &trans         &trans    &trans         &kp TAB      &trans    &kp DELETE
-                         &trans  &trans  &trans  &trans  &trans         &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT &kp BACKSPACE
-                         &trans  &trans  &trans  &trans  &trans         &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END   &kp INS
-                                         &trans  &trans  &trans         &trans    &trans
+              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans        &trans         &kp TAB      &trans     &kp DELETE
+              &trans        &trans        &trans        &trans        &trans               &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
+              &trans        &trans        &trans        &trans        &trans               &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
+                                          &bt BT_CLR    &trans        &trans               &out OUT_TOG  &trans
             >;
         };
 
