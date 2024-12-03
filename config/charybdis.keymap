@@ -97,7 +97,7 @@
               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans        &trans         &kp TAB      &trans     &kp DELETE
               &trans        &trans        &trans        &trans        &trans               &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT  &kp BACKSPACE
               &trans        &trans        &trans        &trans        &trans               &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp INS
-                                          &bt BT_CLR    &trans        &trans               &out OUT_TOG  &trans
+                                          &bt BT_CLR    &trans        &trans               &trans        &out OUT_TOG
             >;
         };
 
