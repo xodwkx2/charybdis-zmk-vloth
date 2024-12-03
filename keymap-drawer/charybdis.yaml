@@ -141,8 +141,8 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: OUT TOG, type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - OUT TOG
   Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
