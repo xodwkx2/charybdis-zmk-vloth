@@ -55,7 +55,7 @@ layers:
   - '-'
   - '*'
   - /
-  - SQTSQT
+  - ''''
   - F19
   - F16
   - F17
@@ -98,10 +98,10 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -146,12 +146,12 @@ layers:
   Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:skip-previous$$
