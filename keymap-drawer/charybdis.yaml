@@ -33,8 +33,8 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Media}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: Navigation}
+  - {t: '$$mdi:keyboard-return$$', h: Navigation}
+  - {t: '$$mdi:backspace$$', type: backspace}
   Numeral/Function:
   - Ctl+Gui+ Q
   - F7
@@ -141,8 +141,8 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - OUT TOG
-  - {type: held}
+  - {t: OUT TOG, type: held}
+  - {t: ▽, type: trans}
   Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
