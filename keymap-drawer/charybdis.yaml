@@ -31,7 +31,7 @@ layers:
   - .
   - {t: /, h: Symbol}
   - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: Navigation}
@@ -41,10 +41,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - F9
   - F12
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - '{'
+  - '}'
+  - '['
+  - ']'
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
   - $$mdi:arrow-left-bold$$
@@ -55,16 +55,16 @@ layers:
   - '-'
   - '*'
   - /
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - SQTSQT
   - F19
   - F16
   - F17
   - F18
+  - Gui+Sft+ 4
   - ''
-  - '{'
-  - '}'
-  - '['
-  - ']'
+  - '`'
+  - '~'
+  - '|'
   - \
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -139,10 +139,10 @@ layers:
   - END
   - INS
   - BT CLR
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - OUT TOG
-  - {t: ▽, type: trans}
+  - {type: held}
   Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
