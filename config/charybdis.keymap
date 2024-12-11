@@ -75,7 +75,7 @@
             label = "Numeral/Function";
             bindings = <
                 &kp LC(LG(Q))  &kp    F7  &kp   UP       &kp    F9  &kp F12              &kp LBRC  &kp RBRC   &kp LBKT   &kp RBKT   &kp DELETE
-                &trans         &kp  LEFT  &kp DOWN       &kp RIGHT  &kp F11              &kp PLUS  &kp MINUS  &kp STAR   &kp SLASH  &kp SQT
+                &trans         &kp  LEFT  &kp DOWN       &kp RIGHT  &kp F11              &kp PLUS  &kp MINUS  &kp STAR   &kp EQUAL  &kp SQT
                 &kp F19        &kp   F16  &kp  F17       &kp   F18  &kp LG(LS(N4))       &none     &kp GRAVE  &kp TILDE  &kp PIPE   &kp BSLH
                                           &kp BACKSPACE  &kp ENTER  &trans               &trans    &trans 
             >;
