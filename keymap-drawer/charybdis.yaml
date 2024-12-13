@@ -30,7 +30,7 @@ layers:
   - ','
   - .
   - {t: /, h: Symbol}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
   - {t: '$$mdi:keyboard-return$$', h: Navigation}
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - PLAY PAUSE
   - STOP
   - STOP
