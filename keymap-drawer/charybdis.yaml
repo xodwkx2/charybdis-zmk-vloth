@@ -114,9 +114,9 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:keyboard-tab$$
-  - {t: ▽, type: trans}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
