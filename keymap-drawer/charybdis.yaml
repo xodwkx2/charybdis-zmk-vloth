@@ -41,10 +41,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - F9
   - F12
-  - '{'
-  - '}'
   - '['
   - ']'
+  - '{'
+  - '}'
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
   - $$mdi:arrow-left-bold$$
